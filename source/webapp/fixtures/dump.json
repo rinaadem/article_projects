@@ -1,0 +1,89 @@
+[{
+    "model": "webapp.article",
+    "pk": 1,
+    "fields": {
+      "title": "Title",
+      "author": "user 1",
+      "content": "text text text",
+      "created_at": "2024-11-23T20:14:33.535Z",
+      "updated_at": "2024-11-23T20:14:33.535Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 2,
+    "fields": {
+      "title": "title 2",
+      "author": "user 2",
+      "content": "text text text",
+      "created_at": "2024-11-23T20:14:47.728Z",
+      "updated_at": "2024-11-23T20:14:47.728Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 3,
+    "fields": {
+      "title": "dfdf",
+      "author": "eweew",
+      "content": "sff",
+      "created_at": "2024-11-23T20:16:29.943Z",
+      "updated_at": "2024-11-23T20:16:29.943Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 4,
+    "fields": {
+      "title": "sdff",
+      "author": "sfdsfdsf",
+      "content": "sdfsff",
+      "created_at": "2024-11-23T20:16:33.572Z",
+      "updated_at": "2024-11-23T20:16:33.572Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 5,
+    "fields": {
+      "title": "sdfsdf",
+      "author": "sdfdsfs",
+      "content": "dsfdf",
+      "created_at": "2024-11-23T20:16:37.072Z",
+      "updated_at": "2024-11-23T20:16:37.072Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 6,
+    "fields": {
+      "title": "dsfdf",
+      "author": "dsfdfd",
+      "content": "dsfdfsf",
+      "created_at": "2024-11-23T20:16:40.808Z",
+      "updated_at": "2024-11-23T20:16:40.808Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 7,
+    "fields": {
+      "title": "sdfdfd",
+      "author": "sfff",
+      "content": "dsffsf",
+      "created_at": "2024-11-23T20:16:45.760Z",
+      "updated_at": "2024-11-23T20:16:45.760Z"
+    }
+  },
+  {
+    "model": "webapp.article",
+    "pk": 8,
+    "fields": {
+      "title": "dsfdf",
+      "author": "dsfds",
+      "content": "dsfdsf",
+      "created_at": "2024-11-23T20:16:49.439Z",
+      "updated_at": "2024-11-23T20:16:49.439Z"
+    }
+  }
+]
