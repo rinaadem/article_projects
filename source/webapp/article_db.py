@@ -1,0 +1,2 @@
+class ArticleDB:
+    articles = []
