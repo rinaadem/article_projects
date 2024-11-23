@@ -13,6 +13,7 @@
 
 <div class="container mt-5">
 <h1>Статьи</h1>
+    <a href="/create/" class="btn btn-success">Создать статью</a>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         {% for article in articles %}
             <div class="col">
@@ -20,7 +21,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ article.title }}</h5>
                         <p class="card-text">{{ article.author }}</p>
-                        <a href="#" class="btn btn-primary">Подробнее</a>
+                        <a href="/article/?id={{ article.id }}" class="btn btn-primary">Подробнее</a>
                     </div>
                 </div>
             </div>
