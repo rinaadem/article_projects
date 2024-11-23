@@ -1,19 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 
-from webapp.article_db import ArticleDB
+from webapp.models import Article
 
-
-# Create your views here.
 
 def index_view(request):
     context = {
-        'name': 'User 1',
-        'age': 20,
-        'articles': ArticleDB().articles,
-        'my_img': 'img/2.png'
+        'articles': Article.objects.all()
     }
     return render(request, 'index.html', context=context)
+
 
 def articles_view(request):
     if request.method == 'GET':
@@ -24,6 +20,6 @@ def articles_view(request):
             'content': request.POST.get('content'),
             'author': request.POST.get('author'),
         }
-        ArticleDB.articles.append(article)
+        # ArticleDB.articles.append(article)
         return HttpResponseRedirect('/')
         # return render(request, 'article.html', context={'article': article})
