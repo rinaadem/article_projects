@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ article.title }}</title>
-</head>
-<body>
-<h1>{{ article.title }}</h1>
-<p>{{ article.content }}</p>
-<p>{{ article.author }}</p>
-
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block content %}
+    <h1>{{ article.title }}</h1>
+    <p>{{ article.content }}</p>
+    <p>{{ article.author }}</p>
+{% endblock %}
