@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Create Article</h1>
-<form action="/create/" method="post">
+<form action="{% url 'article_add' %}" method="post">
     {% csrf_token %}
     
     <label>Title:</label><br/>
